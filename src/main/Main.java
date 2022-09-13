@@ -8,8 +8,11 @@ public class Main {
         employees.add("Ola");
         employees.add("Khan");
         employees.add("Zula");
+        employees.add("Will Remove");
+        employees.remove("AAAAA");
         for (int i = 0; i < employees.getSize();i++) {
             System.out.println(employees.get(i));
         }
+        System.out.println(employees.get(111));
     }
 }
