@@ -2,17 +2,24 @@ package main;
 
 public class Main {
     public static void main(String[] args) {
-        MyArrayList employees = new MyArrayList();
-        employees.add("Alex");
-        employees.add("Serg");
-        employees.add("Ola");
-        employees.add("Khan");
-        employees.add("Zula");
-        employees.add("Will Remove");
-        employees.remove("AAAAA");
-        for (int i = 0; i < employees.getSize();i++) {
-            System.out.println(employees.get(i));
-        }
-        System.out.println(employees.get(111));
+        byte c;
+        Byte cl;
+        short s;
+        Short sl;
+        int a = 5;
+        Integer b = 5;
+        long l;
+        Long ll;
+        char ch;
+        Character chl;
+        float f;
+        Float fl;
+        double d;
+        Double dl;
+        boolean bool;
+        Boolean boll;
+        /*
+        * С маленькой буквы примитив, с большой оболочка,ссылочный тип
+        * */
     }
 }
